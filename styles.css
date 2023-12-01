@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  header {
+    background-color:#FCC30B;    
+    margin: auto -16px;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    height:80px;
+  }
+
+  img {
+    border-radius: 50%;
+    padding: 5px;
+    width: 70px;
+    position: relative;
+  }
+  header h1 {
+    color: white;
+    font-weight: 200;
+    position: relative;
+    left:80px;
+    bottom: 65px;
+    font-family:"American Typewriter", serif;
+  }
+  .header-btn {
+    float: right;
+    bottom:100px;
+    position: relative;
+    font-family: "McLaren", cursive !important;
+    color: #FCC30B;
+    height:35px;
+    width:120px;
+    box-sizing: border-box;
+    margin-left:10px;
+    background-color:white; 
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;  
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-right:20px;
+    border: 1px white;
+    border-radius: 20px;
+  }
+  
+  .header-btn:hover {
+    background-color: #eee;
+  }
+
+  footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+  footer p {
+    color: #ccc;
+  }
+  .product {
+    background: #fff;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 40px;
+    width: 21%;
+    margin:0px 25px 25px 25px; 
+    float: left;
+    border: 2px solid #FCC30B;
+    text-align: center;
+    height: 200px;
+  }
+  .container{
+    margin-top: 75px;
+  }
+ .redirect-btn{
+    color: #FCC30B;
+    text-align: none;
+  }
+  .product h1 {
+    font-size: 1.1em;
+    margin-bottom: 6px;
+  }
+  .product p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  .delete-checkbox {
+    float: left;
+    bottom: 12px !important;
+    position: relative;
+    margin-bottom: 100px !important;
+    height: 20px;
+    width: 20px;
+  }
+  form input,
+  #productType {
+    width: 60%;
+    border: 1px solid #FCC30B;
+    border-radius: 20px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+    margin-top: 10px;
+    padding: 12px 20px;
+    cursor: pointer;
+  }
+  form label {
+    width: 30%;
+    font-family: "Apple Chancery", cursive;
+    font-size: 25px;
+    display: inline-block;
+    color:#FCC30B ;
+  }
+
+  .product-type{
+    width:30% !important;
+  }
+  h3{
+    padding: 20px 20px  20px 0px;
+    text-decoration:underline;
+    font-size: larger;
+    color:  #FCC30B;
+  }
+  .form-container{
+    background-color: white;
+    padding: 30px;
+    margin: 50px;
+    width: 50%;
+    padding-right:100px;
+    position: relative;
+    text-align: center;
+    left: 300px;
+    border-radius: 2%;
+    border : 1px solid #FCC30B ;
+  }
